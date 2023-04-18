@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    
+    body{
+        background-image: url("../../imagens/back-tv.jpg");
+        background-size: cover;
+    }
+    span#burguer{
+        display: none;
+       
+    }
+    main {
+        width: 600px;
+        background-color: rgba(136, 136, 136, 0.733);
+        color: rgb(255, 255, 255);
+    }
+    menu{
+        display: block;
+
+    }
+    menu ul > li{
+        display: inline-block;
+    }
+
+}
