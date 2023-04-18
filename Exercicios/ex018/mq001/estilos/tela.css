@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    text-align: center;
+    background-color: darkgray;
+}
+
+li{
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+article{
+    max-width:600px;
+    margin: auto;
+    padding: 15px;
+}
